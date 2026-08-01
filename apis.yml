@@ -1,7 +1,25 @@
 aid: santa-ana-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/santa-ana-bio.png
 name: Santa Ana Bio
-description: Santa Ana Bio is a company surfaced as a portfolio company of a16z, gv and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Santa Ana Bio is a precision immunology company developing targeted therapies
+  to stop autoimmune and inflammatory disease at the source. The company pairs a multi-omics
+  discovery platform (integrating genomic, transcriptomic, and proteomic data) with
+  a pipeline of bispecific and multi-specific antibody and antibody-drug-conjugate
+  programs (SAB01, SAB05, SAB06) advancing toward IND submissions across 2026-2027.
+  Backed by a16z and GV, it was added to the API Evangelist network as a portfolio
+  company. It publishes a corporate and careers website but no public developer, API,
+  or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/santa-ana-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Immunology
+- Autoimmune Disease
+- Drug Discovery
+- Precision Medicine
+- Multi-Omics
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/santa-ana-bio-domain-security.yml
 - type: Website
-  url: https://www.santaanabio.com
+  url: https://www.santaana.bio/
+- type: PrivacyPolicy
+  url: https://www.santaana.bio/privacy-policy/
+- type: TermsOfService
+  url: https://www.santaana.bio/terms-of-use/
+- type: Careers
+  url: https://www.santaana.bio/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/santaanabio/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
